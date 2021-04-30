@@ -21,7 +21,7 @@ export class MovieComponent implements OnInit {
 
   saveMovie(movieData: any): any {
     console.log(movieData);
-    return {};
+    return {movieData};
   }
 
 }
